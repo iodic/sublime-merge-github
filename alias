@@ -58,7 +58,7 @@ git config --global alias.open '!f() {
             [ "$type" = "branch" ] && repo_url="$repo_url?version=GB$target"
             ;;
         *)
-            echo "Cannot open: not a GitHub, GitLab, or Bitbucket repository" >&2
+            echo "Cannot open: not a GitHub/GitLab/Bitbucket/Azure repository" >&2
             return 1
             ;;
     esac
