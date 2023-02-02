@@ -1,6 +1,6 @@
 [
     {
-        "caption": "🔗 Open Repository on remote",
+        "caption": "🔗 Open repo on remote",
         "command": "git",
         "args": { "argv": ["open", "repo"] }
     },
